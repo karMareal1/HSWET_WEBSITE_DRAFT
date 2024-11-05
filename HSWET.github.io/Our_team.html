@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSWET Team Members</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Our_team_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav id="myHeader">
+            <a href="index.html"><img src="images/HSWET_LOGO.jpeg" id="logo" alt="HSWET Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">ABOUT US ▼</button>
+                            <div class="dropdown-content">
+                                <a href="about_us/about.html">About</a>
+                                <a href="about_us/subteams.html">Subteams</a>
+                                <a href="about_us/officers.html">Officers</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">PROJECTS ▼</button>
+                            <div class="dropdown-content">
+                                <a href="projects/current_project.html">Current Project</a>
+                                <a href="projects/past_projects.html">Past Projects</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="media.html">MEDIA</a></li>
+                    <li><a href="Our_team.html">OUR TEAM</a></li>
+                    <li><a href="contact_us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="bar" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box-sub">
+            <h1>Our Team</h1>
+            <h2>Meet the dedicated members of HSWET</h2>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section class="member-gallery">
+        <!-- Example Team Member Card -->
+        <div class="single-team">
+            <div class="team-img">
+                <img src="images/team_members/placeholder.jpg" alt="Team Member">
+            </div>
+            <div class="team-content">
+                <div class="team-info">
+                    <h3>Name</h3>
+                    <h4>Position</h4>
+                    <ul>
+                        <li>Major: Engineering</li>
+                        <li>Class of 20XX</li>
+                        <li>Subteam: Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more team member cards here -->
+    </section>
+
+    <!-- Subteams Section -->
+    <section class="container reveal">
+        <div class="section-box">
+            <h2>Our Subteams</h2>
+            <div class="subteams-grid">
+                <div class="subteam-card">
+                    <h3>Mechanical Design</h3>
+                    <p>Responsible for the structural and mechanical components of our wind turbines.</p>
+                </div>
+                <div class="subteam-card">
+                    <h3>Electrical</h3>
+                    <p>Handles power systems and electrical integration.</p>
+                </div>
+                <div class="subteam-card">
+                    <h3>Software</h3>
+                    <p>Develops control systems and monitoring software.</p>
+                </div>
+                <!-- Add more subteam cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/HopkinsWindTeam" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/HopkinsWindTeam" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/hopkinswindteam" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/hopkins-wind-team" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by HSWET Web Team</p>
+    </section>
+
+    <script src="hswet_script.js"></script>
+</body>
+</html>
